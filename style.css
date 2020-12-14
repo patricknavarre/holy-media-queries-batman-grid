@@ -40,3 +40,38 @@
   grid-area: ftr;
   background-color: #f08a4b;
 }
+
+@media (max-width: 1100px) {
+  #app{
+  font-size: 5em;
+  text-align: center;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 10% 50% 20%;
+  grid-template-areas:
+    "hdr hdr"
+    "nav nav"
+    "art ads"
+    "ftr ftr"
+    ;
+}
+}
+
+@media (max-width: 700px) {
+  #app{
+  font-size: 5em;
+  text-align: center;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 10% 40% 10% 20%;
+  grid-template-areas:
+    "hdr"
+    "nav"
+    "art"
+    "ads"
+    "ftr"
+    ;
+}
+}
