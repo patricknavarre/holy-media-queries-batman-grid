@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  font-size: 5em;
+  text-align: center;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 20% 60% 20%;
+  grid-template-areas:
+    "hdr hdr hdr"
+    "nav art ads"
+    "ftr ftr ftr"
+  ;
+}
+
+#header {
+  background-color: #f3ca40;
+  grid-area: hdr;
+}
+
+#nav {
+  grid-area: nav;
+  background-color: #4b4e6d;
+}
+
+#articles {
+  grid-area: art;
+  background-color: #6a8d92;
+}
+
+#ads {
+  grid-area: ads;
+  background-color: #f2a541;
+}
+
+#footer {
+  grid-area: ftr;
+  background-color: #f08a4b;
+}
