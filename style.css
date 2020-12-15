@@ -41,7 +41,7 @@
   background-color: #f08a4b;
 }
 
-@media (max-width: 1100px) {
+@media (min-width: 700px) and (max-width: 1100px) {
   #app{
   font-size: 5em;
   text-align: center;
@@ -58,7 +58,7 @@
 }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 699px) {
   #app{
   font-size: 5em;
   text-align: center;
